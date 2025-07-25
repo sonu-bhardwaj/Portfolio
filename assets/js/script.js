@@ -1,7 +1,16 @@
- //script for typing effect on hero section
- 
- 
-
+ // Typing effect for hero section
+var typeEffect = document.getElementById("typing"); // typing should be in quotes
+var typed = new Typed(typeEffect, {
+  strings: [
+    '<strong>Software Development.</strong>',
+    '<strong>Frontend Development.</strong>',
+    '<strong>Backend Development.</strong>'
+  ],
+  typeSpeed: 50,
+  backSpeed: 60,
+  loop: true,
+  showCursor: false
+});
 
 
 

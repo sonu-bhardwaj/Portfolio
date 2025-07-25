@@ -188,12 +188,12 @@ header .navbar ul li a.active::after {
   font-weight: 800;
   color: #002057;
 }
-
-.home .content p {
-  font-size: 2.5rem;
-  color: #000;
-  font-weight: 600;
-  padding: 1rem 0;
+#typing {
+  display: inline-block;
+  min-width: 200px;
+  white-space: nowrap;
+  text-align: left;
+  color: red;
 }
 
 .home .btn {
@@ -292,6 +292,10 @@ header .navbar ul li a.active::after {
     margin-top: 4rem;
     justify-content: center;
   }
+  .home .content h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
 }
 /* Responsive for Hero */
 
@@ -301,7 +305,6 @@ header .navbar ul li a.active::after {
 .about {
   padding: 5rem 9%;
   background: #f9f9f9;
-
 }
 
 .about .heading {
@@ -458,7 +461,6 @@ header .navbar ul li a.active::after {
 }
 /* ===== Skills Section Start ===== */
 
-
 /* ===== Education Section Start ===== */
 .education {
   padding: 5rem 9%;
@@ -540,7 +542,6 @@ header .navbar ul li a.active::after {
   font-weight: normal;
 }
 /* ===== Education Section End ===== */
-
 
 /* ===== Work Projects Section Start ===== */
 .work {
@@ -628,8 +629,6 @@ header .navbar ul li a.active::after {
 }
 /* ===== Work Projects Section End ===== */
 
-
-
 /* Footer Section Styles Start */
 /* footer section starts */
 .footer {
@@ -689,7 +688,7 @@ header .navbar ul li a.active::after {
   color: #02094b;
   border: none;
 }
-.footer .box-container .box h3{
+.footer .box-container .box h3 {
   color: #ffae00;
 }
 .footer .box-container .box .share a:hover {
@@ -730,7 +729,6 @@ header .navbar ul li a.active::after {
 }
 /* footer section ends */
 
-
 /* scroll top starts */
 #scroll-top {
   position: fixed;
@@ -748,9 +746,3 @@ header .navbar ul li a.active::after {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
-
-
-
-
-
-
