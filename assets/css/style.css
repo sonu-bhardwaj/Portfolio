@@ -132,6 +132,9 @@ header .navbar ul li a.active::after {
     background-color: #0205599a;
     padding: 2rem;
     transition: right 0.3s ease;
+    /* border: 1px solid red; */
+    border-top-left-radius: 15px;
+     border-bottom-left-radius: 15px;
     
   }
 
