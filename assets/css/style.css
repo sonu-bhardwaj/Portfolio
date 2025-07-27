@@ -110,9 +110,11 @@ header .navbar ul li a.active::after {
 @media (max-width: 768px) {
   #menu {
     display: block;
+    
   }
   header {
     height: 1.5px;
+    
     
   }
   header .logo,
@@ -121,6 +123,7 @@ header .navbar ul li a.active::after {
   }
 
   header .navbar {
+    margin-top: -3rem;
     position: fixed;
     top: 6.5rem;
     right: -100%;
