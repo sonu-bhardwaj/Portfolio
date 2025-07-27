@@ -76,6 +76,7 @@ header .navbar ul li a {
   letter-spacing: 0.04rem;
   position: relative;
   padding: 0.5rem 0;
+  transition: color 0.3s ease;
 }
 
 header .navbar ul li a::after {
@@ -89,14 +90,13 @@ header .navbar ul li a::after {
   transition: width 0.3s ease;
 }
 
-header .navbar ul li a:hover,
-header .navbar ul li a.active {
-  color: #da0416;
+header .navbar ul li a:hover::after {
+  width: 100%;
 }
 
-header .navbar ul li a:hover::after,
-header .navbar ul li a.active::after {
-  width: 100%;
+/* download icon color change*/
+.fa-solid {
+  color: red;
 }
 
 /* ========== Hamburger Menu ========== */
@@ -110,12 +110,9 @@ header .navbar ul li a.active::after {
 @media (max-width: 768px) {
   #menu {
     display: block;
-    
   }
   header {
     height: 1.5px;
-    
-    
   }
   header .logo,
   header .logo i {
@@ -132,10 +129,8 @@ header .navbar ul li a.active::after {
     background-color: #0205599a;
     padding: 2rem;
     transition: right 0.3s ease;
-    /* border: 1px solid red; */
     border-top-left-radius: 15px;
-     border-bottom-left-radius: 15px;
-    
+    border-bottom-left-radius: 15px;
   }
 
   header .navbar.active {
@@ -152,10 +147,8 @@ header .navbar ul li a.active::after {
     font-size: 2rem;
   }
 
-  header .navbar ul li a:hover,
-  header .navbar ul li a.active {
-    color: #fff;
-    border-bottom: 0.5rem solid #da0416;
+  header .navbar ul li a:hover::after {
+    width: 100%;
   }
 }
 
