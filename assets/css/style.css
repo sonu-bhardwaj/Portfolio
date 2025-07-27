@@ -129,7 +129,7 @@ header .navbar ul li a.active::after {
     right: -100%;
     width: 30%;
     height: 50vh;
-    background-color: #7275c93a;
+    background-color: #0205599a;
     padding: 2rem;
     transition: right 0.3s ease;
     
