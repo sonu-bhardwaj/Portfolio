@@ -113,6 +113,7 @@ header .navbar ul li a.active::after {
   }
   header {
     height: 1.5px;
+    
   }
   header .logo,
   header .logo i {
@@ -123,11 +124,12 @@ header .navbar ul li a.active::after {
     position: fixed;
     top: 6.5rem;
     right: -100%;
-    width: 75%;
-    height: 100vh;
-    background-color: #0e0f31;
+    width: 30%;
+    height: 50vh;
+    background-color: #7275c93a;
     padding: 2rem;
     transition: right 0.3s ease;
+    
   }
 
   header .navbar.active {
