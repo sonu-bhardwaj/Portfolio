@@ -1,3 +1,21 @@
+// scroll and reveal logic 
+ScrollReveal({
+    reset: true,         // Animation happens every time you scroll back
+    distance: '0px',     // No movement, only opacity
+    duration: 1000,      // Animation duration in ms
+    delay: 200,          // Delay before animation
+    easing: 'ease-in-out', // Smooth easing
+    opacity: 0           // Start fully transparent
+  });
+
+  // Target all sections
+  ScrollReveal().reveal('section', { 
+    origin: 'bottom',   // Direction (can still keep for stagger effect)
+    interval: 200       // Delay between elements
+  });
+
+
+
 // hamburger button logic start
 
   // Wait until the DOM is fully loaded
